@@ -1,7 +1,7 @@
 import nock from 'nock';
 
 describe('test', () => {
-  afterAll(async () => {
+  afterAll(() => {
     nock.cleanAll();
     nock.restore();
   });

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --expose-gc --no-compilation-cache ./node_modules/.bin/jest --logHeapUsage --runInBand --detect-leaks"
+    "test": "npx jest --runInBand --detectLeaks"
   },
   "author": "",
   "license": "ISC",
